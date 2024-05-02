@@ -1,0 +1,17 @@
+1 - Identity
+
+    x[n] * d[n] = x[n]
+    x[n] * kd[n] = kx[n]
+    x[n] * d[n+s] = x[n+s]
+
+2 - Commutativity
+
+    f[n] * g[n] = g[n] * f[n]
+
+3 - Associativity
+
+    f[n] * (g[n]*h[n]) = (f[n]*g[n]) * h[n]
+
+4 - Distributivity
+
+    f[n] * (g[n]+h[n]) = (f[n]+g[n]) * h[n]
